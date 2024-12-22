@@ -9,31 +9,32 @@ import CssIcon from "@/assets/icons/css3.svg";
 import ReactICon from "@/assets/icons/react.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
+import { TechIcon } from "@/components/TechIcon";
 
 const toolboxItems = [
   {
     title: "JavaScript",
-    icon: <JavascriptIcon />,
+    iconType: JavascriptIcon,
   },
   {
     title: "HTML5",
-    icon: <HTMLIcon />,
+    iconType: HTMLIcon,
   },
   {
     title: "CSS",
-    icon: <CssIcon />,
+    iconType: CssIcon,
   },
   {
     title: "React",
-    icon: <ReactICon />,
+    iconType: ReactICon,
   },
   {
     title: "Chrome",
-    icon: <ChromeIcon />,
+    iconType: ChromeIcon,
   },
   {
     title: "Github",
-    icon: <GithubIcon />,
+    iconType: GithubIcon,
   },
 ];
 
@@ -64,7 +65,14 @@ export const AboutSection = () => {
               digital experiences.
             </p>
           </div>
-          <div></div>
+          <div>
+            {toolboxItems.map((item) => (
+              <div key={item.title}>
+                <TechIcon component={item.iconType} />
+                <span>{item.title}</span>
+              </div>
+            ))}
+          </div>
         </Card>
       </div>
     </div>
