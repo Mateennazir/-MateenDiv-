@@ -1,6 +1,5 @@
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import StarIcon from "@/assets/icons/star.svg";
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
@@ -9,7 +8,6 @@ import CssIcon from "@/assets/icons/css3.svg";
 import ReactICon from "@/assets/icons/react.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
-import { TechIcon } from "@/components/TechIcon";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
@@ -115,11 +113,15 @@ export const AboutSection = () => {
                 className=""
               />
 
-              <ToolboxItems items={toolboxItems} className="" />
+              <ToolboxItems
+                items={toolboxItems}
+                className=""
+                itemsWrapperClassname="animate-move-left [animation-duration:30s]"
+              />
               <ToolboxItems
                 items={toolboxItems}
                 className="mt-6"
-                itemsWrapperClassname="-translate-x-1/2"
+                itemsWrapperClassname="animate-move-right [animation-duration:15s]"
               />
             </Card>
           </div>
