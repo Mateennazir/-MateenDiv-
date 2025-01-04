@@ -1,25 +1,23 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import TrekDeKashmir from "@/assets/images/trek-de-kashmir-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import TrekDeKashmir from "@/assets/images/Trek-De-Kashmir.png";
+import Forkify from "@/assets/images/Forkify.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 const portfolioProjects = [
   {
-    company: "Trek De Kashmir",
-    year: "2023",
-    title: "Travel agency Website",
+    company: "Travel agency Website",
+    year: "2024",
+    title: "Trek De Kashmir",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "https://mateennazir.github.io/-Trekdekashmir/",
-    image: darkSaasLandingPage,
+    image: TrekDeKashmir,
   },
   {
     company: "Recipe Application",
@@ -31,7 +29,7 @@ const portfolioProjects = [
       { title: "Increased user engagement through recipe sharing" },
     ],
     link: "https://reciperevel-mateen-chowdhary.netlify.app/",
-    image: lightSaasLandingPage,
+    image: Forkify,
   },
   {
     company: "Quantum Dynamics",
