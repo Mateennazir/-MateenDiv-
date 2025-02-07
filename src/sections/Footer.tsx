@@ -4,7 +4,7 @@ const footerLinks = [
   { title: "Twitter", href: "https://x.com/Mateennazir5" },
   { title: "Instagram", href: "https://www.instagram.com/mateen.chowdhary/" },
   { title: "LinkedIn", href: "https://www.linkedin.com/in/mateen-chowdhary/" },
-  { title: "Mail", href: "mailto:chowdharymateen0@gmail.com" },
+  { title: "Mail", href: "mailto:muteebnazir8@gmail.com" },
 ];
 
 export const Footer = () => {
