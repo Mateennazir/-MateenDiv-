@@ -1,6 +1,7 @@
 import TrekDeKashmir from "@/assets/images/Trek-De-Kashmir.png";
 import Forkify from "@/assets/images/Forkify.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import NeoVerse from "@/assets/images/Neo-Verse.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -32,16 +33,16 @@ const portfolioProjects = [
     image: Forkify,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
+    company: "NeoVerse",
+    year: "2025",
     title: "AI Startup Landing Page",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "",
-    image: aiStartupLandingPage,
+    link: "https://neo-verse-studios.vercel.app/",
+    image: NeoVerse,
   },
 ];
 
